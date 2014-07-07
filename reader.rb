@@ -9,6 +9,4 @@ text = page.text
 
 m = TactfulTokenizer::Model.new
 
-m.tokenize_text(text).each do |line|
-  puts line
-end
+p m.tokenize_text(text)
