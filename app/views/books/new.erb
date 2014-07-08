@@ -1,4 +1,4 @@
-<%= form_tag({action: :new}, multipart: true) do %>
+<%= form_tag({action: :create}, multipart: true) do %>
   <%= file_field_tag 'book' %>
   <%= submit_tag('Upload') %>
 <% end %>
